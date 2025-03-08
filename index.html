@@ -15,6 +15,23 @@
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      section > img {
+        max-height: 500px !important;
+        height: 500px !important;
+      }
+
+      h2 {
+        font-size: 1.8em !important;
+      }
+
+      .logo {
+        max-height: 300px !important;
+      }
+      .notes {
+        font-size: 0.8em;
+      }
+    </style>
   </head>
   <body>
     <div class="reveal">
@@ -55,48 +72,70 @@
         <section>
           <section>
             <h2>Le stelle: cosa sono?</h2>
-          </section>
-          <section>
-            <!-- TODO: immagine di una stella -->
+            <img src="img/campo_stellare.jpg" alt="" />
             <aside class="notes">
               Sfere di plasma incandescente che si autosostengono con
               l'equilibrio tra la loro gravità e le reazioni nucleari interne
+              <br />
+              Masse tra 0.08 e 150-200 MS (1MS ~ 2x10^30 kg)
+              <br />
+              Possono vivere tra poche decine di miglioni di anni a una un
+              periodo sostanzialmente indefinito
+              <br />
+              Formate per lo più da Idrogeno e Elio, più un'inezia di elementi
+              più pesanti
+              <br />
+              Temperatura segue un gradiente, da milioni o miliardi di gradi
+              Kelvin al nucleo a qualche migliaio in superficie
             </aside>
           </section>
           <section>
             <h3>La struttura di una stella</h3>
             <img src="img/struttura-stella.png" alt="" />
             <aside class="notes">
+              <ol>
+                <li>Nucleo</li>
+                <li>Zona radiativa</li>
+                <li>Zona convettiva</li>
+                <li>Fotosfera</li>
+                <li>Cromosfera</li>
+                <li>Corona</li>
+                <li>Macchia solare</li>
+                <li>Granulazione fotosferica</li>
+                <li>Protuberanza ad arco</li>
+              </ol>
             </aside>
           </section>
           <section>
-            <h3>Età</h3>
-            <!-- TODO: tabella o immagine con età media stelle -->
-          </section>
-          <section>
-            <h3>Composizione chimica</h3>
-            <!-- TODO: Principali elementi chimici di una stella -->
-          </section>
-          <section>
             <h3>Dimensioni</h3>
-            <!-- TODO: Esempi di dimensioni di stelle, magari con immagine di riferimento -->
-          </section>
-          <section>
-            <h3>Massa</h3>
-            <!-- TODO: Esempi di masse di stalle, tabella? -->
+            <img src="img/dimensioni.png" />
+            <aside class="notes">
+              Dimensioni estremamente varie, dalle poche decine di km alle
+              migliaia di volte il nostro sole.
+              <br />
+              Sole = 1,390,900 km
+              <br />
+              UY Scuti = 909 DS (orbita giove 1119)
+              <br />
+              Stephenson 2-18 = 2150 DS
+              <br />
+              Eblm J0555-57Ab circa come saturno (nana bruna), al di sotto
+              difficile avere reazioni nucleari
+            </aside>
           </section>
           <section>
             <h3>Moti spaziali</h3>
-            <!-- TODO: i moti spaziali delle stelle? -->
-          </section>
-          <section>
-            <h3>Temperatura</h3>
-            <!--TODO: La temperatura all'interno delle stelle-->
-            <!--TODO: stelle più calde e più fredde-->
+            <img src="img/barnard.gif" />
+            <aside class="notes"></aside>
           </section>
           <section>
             <h3>Le reazioni nucleari</h3>
-            <!-- TODO: Il funzionamento interno delle stelle, con immagine -->
+            <img src="img/fusione_idrogeno.png" />
+            <aside class="notes">
+              Non è l'unico processo, ma il principale. Per poter innescare la
+              fusione dell'idrogeno è sufficiente una massa di 0.01 MS, per
+              l'elio 0.4, per il Carbonio 4 MS, per Neon 8 MS
+            </aside>
           </section>
         </section>
         <section>
@@ -105,24 +144,50 @@
           </section>
           <section>
             <h3>La protostella</h3>
-            <!--TODO: Immagine di una protostella-->
+            <img src="img/protostella.jpg" />
+            <aside class="notes">
+              Tutto nasce da una nube interstellare. Se per una qualche motivo si addensa si può generare un processo di condensazione. Sopra certe masse si forma un nucleo supecritico, aumentando la densità e la temperatura. A 2000 K H2 si dissocia in H che si ionizzano con l'elio. La protostella continua a crescere
+            </aside>
           </section>
           <section>
             <h3>La Fase Principale</h3>
-            <!-- TODO: Immagine di una stella-->
+            <aside class="notes">
+              Se raggiunge 0.08 MS passa alla fase di pre-sequenza principale e a quella principale. Se maggiore di 8 MS direttamente alla fase principale e alla fusione dell'idrogeno. Si acende la stella, si forma il vento solare. Fase che può durare dalle decine di milioni di anni per le stelle più massicce a centinaia di miliardi di anni.
+            </aside>
           </section>
           <section>
-            <h3>Gigante rossa</h3>
-            <!-- TODO: Immagine di una gigante rossa-->
+            <h3>La terza età</h3>
+            <aside class="notes">
+              Dipende dalla massa. Inizia quando non hanno più idrogeno, passa alla fase di fusione dell'elio.
+              <br>
+              <ul>
+                <li>0.08-0.4 MS nane rosse che si scaldano fino all'azzurro e poi si contraggono fino a nane bianche</li>
+                <li>0.4-8 MS Gigante rossa, brucia l'elio in carbonio e ossigeno, nucleo si contrae, esterno si espande</li>
+                <li>>8 MS Super gigante, arriva a produrre neon, silicio, zolfo, fino al ferro, a cerchi concentrici</li>
+              </ul>
+            </aside>
           </section>
           <section>
             <h3>Morte di una stella</h3>
             <ul>
-              <li class="fragment">Nana bruna</li>
-              <li class="fragment">Stella di neutroni</li>
-              <li class="fragment">Buco nero</li>
+              <li class="fragment">0.08-0.4 MS Nana bianca</li>
+              <li class="fragment">0.4-8 MS Nana bianca con nebulosa planetaria</li>
+              <li class="fragment">>8 MS Supernova di tipo II o di tipo Ib o Ic se >30 MS</li>
+              <li class="fragment">Se il residuo è 1.4-3.8 MS si forma una stella di neutroni (pulsar)</li>
+              <li class="fragment">Se il residuo >3.8 MS si forma un buco nero</li>
             </ul>
+            <aside class="notes">
+              Nana bianca si raffredda fino a nana nera (mai viste data la longevità) se inferiore al limite di Chandrasekhar (1.44 MS)
+              <br>
+              >8 MS continua la fusione del nucleo fino al limite di Chandrasekhar, poi collassa. L'onda d'urto investe gli stati superficiali e crea la Supernova, dove vengono prodotti elementi ancora più pesanti del ferro.
+              <br> Se oltre il limte di Tolman-Oppenheimer-Volkoff (3.8 MS) nessuna forza è in grado di contrastare il collasso, il nucleo si contra fino a raggiungere il raggio di Schwartzchild, quindi si forma un buco nero.
           </section>
+        </section>
+        <section>
+          <h2>Domande?</h2>
+        </section>
+        <section>
+          <h2>Alla prossima</h2>
         </section>
       </div>
     </div>
@@ -141,10 +206,10 @@
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
-      Reveal.configure({
-        pdfSeparateFragments: false,
-        showNotes: "separate-page",
-      });
+      //Reveal.configure({
+      //  pdfSeparateFragments: false,
+      //  showNotes: "separate-page",
+      //});
     </script>
   </body>
 </html>
